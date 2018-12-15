@@ -26,21 +26,23 @@ With your text editor open, add your first question by starting a line with
 '\Q' and then add its associated answer with a '\A' on the following line. For
 example:
 
-_\QWhat is the meaning of life?_
-_\AThe meaning of life is 42, of course._
+<pre>\QWhat is the meaning of life?
+\AThe meaning of life is 42, of course.</pre>
 
 A question must always be on a single line. Answers, however, can span multiple
 lines. Example:
 
-_\QGive an exhaustive list of the dolphins' last words to mankind_
-_\A- So long
-- And thanks for all the fish_
+<pre>\QGive an exhaustive list of the dolphins' last words to mankind
+\A- So long
+- And thanks for all the fish</pre>
 
 This will display as
-> Give an exhaustive list of the dolphins' last words to mankind
->
-> - So long
-> - And thanks for all the fish
+<pre>
+Give an exhaustive list of the dolphins' last words to mankind
+
+- So long
+- And thanks for all the fish
+</pre>
 
 Note that `study_help` keeps the indentation of lists, so you can make
 sub-lists beneath lists, and as long as you've typed the indentation correctly,
